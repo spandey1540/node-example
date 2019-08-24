@@ -1,0 +1,26 @@
+{
+  "name": "git-node-example",
+  "version": "1.0.0",
+  "description": "demo code for help",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spandey1540/node-example.git"
+  },
+  "keywords": [
+    "node",
+    "example"
+  ],
+  "author": "sumit pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spandey1540/node-example/issues"
+  },
+  "homepage": "https://github.com/spandey1540/node-example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
