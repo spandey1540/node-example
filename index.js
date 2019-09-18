@@ -17,7 +17,7 @@ const logger = require("./Middleware/logger");
  * other applications files
  */
 const configData = require("./config.json");
-const Routes = require("./Routes/Index");
+const indexRoutes = require("./Routes/Index");
 
 /**
  * connection to database
@@ -50,7 +50,7 @@ app.use(
 );
 app.use(bodyparser.json());
 
-app.use("/", logger, Routes);
+app.use("/", logger, indexRoutes);
 app.listen(configData.port, () =>
   console.log(`Example app listening on port ${configData.port}!`)
 );

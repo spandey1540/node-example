@@ -7,7 +7,7 @@ const userRoutes = require("./UserRoutes").Router;
 
 //middleware
 
-router.use('user',userRoutes);
+router.use('/user',userRoutes);
 
 
 module.exports = router;
